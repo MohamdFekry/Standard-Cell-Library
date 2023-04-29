@@ -1,0 +1,15 @@
+Vdd VDD 0 dc 1.8
+Vg  GND 0 dc 0
+
+Vx X 0 dc 0
+Vy Y 0 dc 0
+Vz Z 0 PULSE 0 1.8 0.1n 100ps 100ps 5n 10n
+Vw W 0 dc 1.8
+
+.trans 0 50n
+*Cload OUT 0 cinv
+*.options cshunt=1e-15
+
+.measure Tpdr TRIG v(W) val=0.9  fall=1 TARG v(OUT) val=0.9  rise=1
+.measure Tpdf TRIG v(W) val=0.9  rise=1 TARG v(OUT) val=0.9  fall=1
+.include "C:\Electric\PTM _130nm_model.txt"
