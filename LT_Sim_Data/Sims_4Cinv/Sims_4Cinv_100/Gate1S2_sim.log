@@ -1,0 +1,27 @@
+Circuit: *** SPICE deck for cell Gate1S2_sim{sch} from library SCL
+
+Vg: both pins shorted together -- ignoring.
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Direct Newton iteration for .op point succeeded.
+
+tpdr=5.93188e-010 FROM 5.25e-009 TO 5.84319e-009
+tpdf=5.30886e-010 FROM 1.5e-010 TO 6.80886e-010
+
+
+Date: Tue Apr 12 02:08:42 2022
+Total elapsed time: 0.144 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3300
+traniter = 3288
+tranpoints = 1508
+accept = 1346
+rejected = 162
+matrix size = 22
+fillins = 0
+solver = Normal
+Matrix Compiler1: 2.20 KB object code size  1.0/0.5/[0.2]
+Matrix Compiler2: 2.38 KB object code size  0.5/0.6/[0.2]
+

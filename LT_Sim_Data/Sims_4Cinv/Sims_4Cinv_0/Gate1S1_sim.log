@@ -1,0 +1,29 @@
+Circuit: *** SPICE deck for cell Gate1S1_sim{sch} from library SCL
+
+Vg: both pins shorted together -- ignoring.
+Limiting rise time of source vx to 5e-010
+Limiting fall time of source vx to 5e-010
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Direct Newton iteration for .op point succeeded.
+
+tpdr=1.15853e-009 FROM 5.85e-009 TO 7.00853e-009
+tpdf=9.17714e-010 FROM 3.5e-010 TO 1.26771e-009
+
+
+Date: Tue Apr 12 02:22:27 2022
+Total elapsed time: 0.147 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2921
+traniter = 2909
+tranpoints = 1335
+accept = 1231
+rejected = 104
+matrix size = 22
+fillins = 0
+solver = Normal
+Matrix Compiler1: 2.20 KB object code size  0.7/0.4/[0.2]
+Matrix Compiler2: 2.38 KB object code size  0.4/0.5/[0.3]
+
